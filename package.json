@@ -1,6 +1,6 @@
 {
-  "name": "Telephony",
-  "description": "Like the game telephone... but dirtier",
+  "name": "Hangman",
+  "description": "Play Hangman live with all of your friends.",
   "version": "0.0.1",
   "maintainers": [
     {
