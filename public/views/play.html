@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+		<script data-main="/controllers/play" src="/assets/js/require-jquery.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="flash"></div>
+			<form id="guessingForm" name="guessingForm" action="" method="POST" onsubmit="return false;">
+				<input type="text" name="hangman_guess" id="hangman_guess" placeholder="Make your guess!" maxlength="1" />
+				<input type="submit" value="Guess" id="submit_guess" />
+			</form>
+			<div id="wordWrap">
+				<div class="clearfix" id="guessedLetters">
+				</div>
+			</div>
+			<div class="clearfix" id="incorrectLetters">
+				<h4>Incorrect</h4>
+			</div>
+			<span id="letterTemp" class="letter"></span>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "Telephony",
+  "description": "Like the game telephone... but dirtier",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Sean Shannon",
+      "email": "seans887@gmail.com",
+      "web": "http://seanshannon.name"
+    }
+  ],
+  "dependencies": {
+    "async": ">= 0.1.22",
+    "express": ">= 2.9.9",
+    "less-middleware": ">= 0.1.5",
+    "mysql": ">= 0.9.6",
+    "jugglingdb": ">= 0.1.15"
+  }
+}

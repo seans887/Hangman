@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+		<script data-main="/controllers/new" src="/assets/js/require-jquery.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="something">
+				<form id="hangman_form" action="/game/create" method="POST">
+					<input id="hangman_word" name="hangman_word" type="text" value="" placeholder="What's the word" />
+					<label for="hangman_public">Public</label><input type="checkbox" name="public" id="hangman_public" />
+					<input type="hidden" name="user_agent" id="user_agent" />
+					<input id="submit_btn" type="submit" value="submit" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
